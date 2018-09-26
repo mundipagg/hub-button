@@ -74,7 +74,6 @@ function Hub(config) {
 		var styles = document.createElement("style");
 		styles.innerHTML = this.styles;
 		container.appendChild(styles);
-		console.log(container);
 	}
 	
 	this.setup(config);
