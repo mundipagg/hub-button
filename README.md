@@ -7,7 +7,7 @@
 <html>
 <head>
   <title>Test Hub Button</title>
-  <script src="hub-min.js"></script>
+  <script src="hub.min.js"></script>
 </head>
 <body>
   <span id="mundipagg-hub"></span>
