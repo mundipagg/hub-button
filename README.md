@@ -16,9 +16,8 @@
 <script>
 
 // hub config
-var config = {
+let config = {
   publicAppKey : "00000000-0000-0000-0000-000000000000",
-  installId : "00000000-0000-0000-0000-000000000000", 
   redirectUrl : "https://my-service.com/callback",
   language: "pt-BR"
 };

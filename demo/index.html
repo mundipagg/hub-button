@@ -5,20 +5,20 @@
   <script src="../src/hub.js"></script>
 </head>
 <body>
-  <span id="mundipagg-hub"></span>
+  <span id="pagarme-hub"></span>
 </body>
 
 <script>
 
 // script for install id dynamically
-var installId = null;
-var searchParams = new URLSearchParams(window.location.search);
+let installId = null;
+let searchParams = new URLSearchParams(window.location.search);
 if (searchParams.has("installId")) {
 	installId = searchParams.get("installId");
 }
 
 // hub config
-var config = {
+let config = {
   publicAppKey: "00000000-0000-0000-0000-000000000000",
   installId: installId,
   redirectUrl: "https://my-service.com/callback",
