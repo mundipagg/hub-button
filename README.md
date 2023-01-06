@@ -1,6 +1,6 @@
 # Hub Button - For External Apps
 
-> If `installId` is defined, hub button works as integrated, showing "view integration". If `installId` isn't defined, hub button works as new integration, showing "integrate with mundipagg";
+> If `installId` is defined, hub button works as integrated, showing "view integration". If `installId` isn't defined, hub button works as new integration, showing "Integrate with Pagar.me";
 
 ```html
 <!DOCTYPE HTML>
@@ -10,7 +10,7 @@
   <script src="hub.min.js"></script>
 </head>
 <body>
-  <span id="mundipagg-hub"></span>
+  <span id="pagarme-hub"></span>
 </body>
 
 <script>
@@ -30,4 +30,4 @@ Hub(config);
 
 ```
 
-![Hub Button - by locations](https://i.imgur.com/qbtQP2y.png)
+![Hub Button - by locations](https://i.imgur.com/NaQgFzv.png)
