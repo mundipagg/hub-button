@@ -57,6 +57,7 @@ function Hub(config) {
     url = url.replace("{language}", this.locations[this.language].language);
     url = url.replace("{publicAppKey}", config.publicAppKey);
     url = url.replace("{installId}", config.installId);
+    url = url.replace("{redirectUrl}", config.redirectUrl);
 
     createButton(text, function () {
       window.location.href = url;
