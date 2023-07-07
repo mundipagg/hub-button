@@ -67,8 +67,7 @@ function Hub(config) {
   this.createButton = function (text, func) {
     let container = document.getElementById(this.containerId);
     let button = document.createElement(this.elementType);
-    button.innerHTML =
-      text + this.space + this.space + this.getImageTag(pagarmeLogo);
+    button.innerHTML =text + this.space + this.space + this.getImageTag(pagarmeLogo);
     button.onclick = func;
     this.removeAllChilds(container);
     this.createStyles();
