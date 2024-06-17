@@ -4,7 +4,7 @@
 > 
 </br>
 
-> If `environment` is defined as `development`, hub button will take you to the `development` environment, otherwise to the `production` environment;
+> If `environment` is defined as `dev`, hub button will take you to the `development` environment, otherwise to the `production` environment;
 
 ```html
 <!DOCTYPE HTML>
